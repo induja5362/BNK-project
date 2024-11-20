@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Check balance</title>
+        <link rel="stylesheet" href="./static/check balance.css">
+    </head>
+    <body>
+        <form action="/checkbalance" method="POST">
+            <table>
+                <tr>
+                    <td>Account Number :</td>
+                    <td><input type="text" name="racc" placeholder="Enter your Bank Account Number"></td>
+                </tr>
+                <tr>
+                    <td>Pin Number :</td>
+                    <td><input type="text" name="pin" placeholder="XXXX56"></td>
+                </tr>
+                <tr>
+                    <td><Button>Check Balance</Button></td>
+                </tr>
+
+
+                
+             <h2>{{msg }} {{dbamount}} </h2></td>
+                
+            </table>
+
+        </form>
+
+        <!-- <h2>Your Account Balance is :  Rupees/-</h2> -->
+    </body>
+</html>

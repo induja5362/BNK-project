@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Viewing Data</title>
+    </head>
+    <body>
+        <table border="5px" cellpadding="10px">
+            <tr>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Phone_number</th>
+                <th>D_O_B</th>
+                <th>Age</th>
+                <th>Address</th>
+                <th>Branch</th>
+                <th>Account number</th>
+                <th>PIN Number</th>
+                <th>Amount</th>
+            </tr>
+            
+            {% for i in userdetails: %}
+                <tr>
+                    <td>{{i[1]}}</td>
+                    <td>{{i[2]}}</td>
+                    <td>{{i[5]}}</td>
+                    <td>{{i[3]}}</td>
+                    <td>{{i[4]}}</td>
+                    <td>{{i[6]}}</td>
+                    <td>{{i[7]}}</td>
+                    <td>{{i[8]}}</td>
+                    <td>{{i[9]}}</td>
+                    <td>{{i[10]}}</td>
+                </tr>
+                <!-- <hr> -->
+            {% endfor %}
+                <!-- <td></td> -->
+            
+
+
+        </table>
+    </body>
+</html>

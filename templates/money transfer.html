@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Money Transfer</title>
+        <link rel="stylesheet" href="./static/mtransfer.css">
+    </head>
+    <style>
+        
+    </style>
+    <body>
+        <form action="/MoneyTransfer" method="POST">
+            <table border="2px" cellpadding="10px">
+                <tr>
+                    <th>Your Account number</th>
+                    <th>Pin </th>
+                    <th>Amount</th>
+                    <th>Reciver's Account Number</th>
+                    <th>Reciver name</th>
+                    <!-- <th></th> -->
+                </tr>
+                <tr>
+                    <td><input type="text" name="oacc"></td>
+                    <td><input type="text"name=pin></td>
+                    <td><input type="text" name="amount"></td>
+                    <td><input type="text" name="racc"></td>
+                    <td><input type="text" name="rname"></td>
+                </tr>
+                
+
+                <button>Proceed Payment</button>
+            </table>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+form{
+    max-width: max-content;
+    background-color: violet; 
+}
+input{
+    font-size: medium;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 5px;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    outline: none;
+    padding-left: 10px;
+    background-color:violet;
+    border-bottom-color:white ;
+    text-align: center;
+}
+button{
+    position: absolute;
+    top: 150px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: violet;
+    background-color: violet;
+    color: white;
+    border-radius: 5px;
+    font-size: large;
+}
+button:hover{
+    background-color: purple;
+    border-color: purple;
+    color: White;
+    /* border-radius: 5px; */
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Debit Amount</title>
+        <link rel="stylesheet" href="./static/debit.css">
+    </head>
+    <body>
+        <form action="/debit" method="POST">
+            <table>
+                <tr>
+                    <td>Branch Name :</td>
+                    <td><input type="text" name="Branch"></td>
+                </tr>
+                <tr>
+                    <td>Account Holder Name :</td>
+                    <td><input type="text" name="ach_name" placeholder="Username"></td>
+                </tr>
+                <tr>
+                    <td>Account Number :</td>
+                    <td><input type="text" name="racc" placeholder="Enter Your Account Number"></td>
+                </tr>
+                <tr>
+                    <td>Amount To Debit:</td>
+                    <td><input type="text" name="amount"></td>
+                </tr>
+                <tr>
+                    <td><button>Debit Amount</button></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
